@@ -1,0 +1,9 @@
+a = int(input("Enter side A: ")) 
+b = int(input("Enter side B: "))
+c = int(input("Enter side C: "))
+d = int(input("Enter side D: ")) 
+e = int(input("Enter side E: ")) 
+AreaLargeRectangle = a*b
+Areasmallrectangle = (a-c)*(d-b-e) 
+Areatrangle = (0.5)*e*(a-c) 
+print("Room Area: " + str(AreaLargeRectangle + Areasmallrectangle+ Areatrangle))
