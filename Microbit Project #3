@@ -1,0 +1,13 @@
+from microbit import *
+
+delay = 1000
+
+while True:
+    display.show(Image.HEART)
+    sleep(delay)
+    
+    if button_a.was_pressed():
+        delay = delay = 200
+        
+    if button_b.was_pressed():
+        delay = delay - 200
